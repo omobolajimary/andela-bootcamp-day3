@@ -1,0 +1,14 @@
+.fb_title{
+    background-color: #2e4b7a;
+}
+.input{
+    float: "left";
+}
+p {
+    font-style: bold;
+}
+body {
+    background: #d7dbe2;
+    color: #1d2129;
+    direction: ltr;
+    }
