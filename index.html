@@ -7,39 +7,84 @@
 		<title>Facebook</title>
         <link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
-        <header>
+    <body>
+        <header >
         <div class="fb_title">    
-            <div>
+            <div id="">
                 <h1 class= "facebook">Facebook</h1>
-                <div class="input">
-                    <table>
-                        <tr>
-                            <th>
-                                 <label >Email or Phone no </label>
-                            </th>
-                            <th>
-                                 <label >Password </label> 
-                            </th>
-                            <tr>
-                                <td><input type="text"></td>
-                                <td><input type="password"></td>
-                                <td><button> Log In </button></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#"> Forgot Password</a></td>
-                            </tr>
-                        </tr>
-                    </table>
-
-                </div>
             </div>
-        
+            <div id="input">
+                <table class="table">
+                    <tr>
+                        <th>
+                                <label >Email or Phone no </label>
+                        </th>
+                        <th>
+                                <label >Password </label> 
+                        </th>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><button> Log In </button></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"> Forgot Password</a></td>
+                        </tr>
+                    </tr>
+                </table>
+
+            </div>
         </div>
         </header>
-	
-	<body>
-		<h1>Sample Page</h1>
-		<p>A brief paragraph with only one sentence here.</p>
+        <div class="main" id="main">
+            <h1>Recent Login</h1>
+            <img src="image/me.jpg" alt= "Me">
+		    <p>Adediran</p>
+            </div>
+        </div>
+        
+        <div class="sidebar" id = "sidebar">
+           <form>
+                <h1>Create a new account</h1>
+                <p>It's free and always will be.</p>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Surname"></br>
+                <input type="text" placeholder="Mobile number or email address"></br>
+                <input type="password" placeholder="New Password">
+		        <h4> Birthday</h4></br>
+                <select name="Day">
+                                <option value="1">1</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                </select>
+                <select name="Month">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                </select>
+                <select name="year">
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                </select>
+                <a href ="#">Why do I need to provice my date of birth</a>
+
+                </br>
+                <p>
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male" checked> Male</p>
+                
+           </form>
+           <p> By clicking Create Account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt out at any time.</p>
+           <button class="create">Create Account</button>
+        </div>
+
 	</body>
+        
+	
 	
 </html>
